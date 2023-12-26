@@ -1,0 +1,76 @@
+.container{
+    width:80vw;
+    height:400px;
+    border:2px solid black;
+    position:relative;
+    overflow:hidden;
+}
+body{
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+.character{
+    width:25px;
+    height:50px;
+    background-color:#000000;
+    position:absolute;
+    top:350px;
+    margin-left:20px;
+    
+}
+.animate{
+    animation:end 500ms;
+}
+@keyframes end{
+    0%{
+        top:350px;
+    }
+    50%{
+        top:310px;
+    }
+    75%{top:310px;}
+    100%{
+        top:350px;
+    }
+}
+.block{
+    width:20px;
+    height:25px;
+    background-color:red;
+    position:absolute;
+    left:580px;
+    top:375px;
+    animation:flow 1.7s linear infinite;
+}
+@keyframes flow{
+    100%{
+        left:-20px;
+    }
+}
+.end{
+    display:flex;
+    align-items:center;
+    color:red;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{line-height:12px;}
+button{
+padding:12px;
+}
+.time{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+h3{
+    text-align:center;
+    line-height:2px;
+    margin-top:20px;
+}
+h4{display:flex; flex-direction: column; text-align:center;}
