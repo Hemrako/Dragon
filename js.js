@@ -32,7 +32,7 @@ setInterval(function(){
       container.innerHTML=`<h1>Game over</h1><h4>Score is ${fi+":"}${t}<button>Play again</button></h4>`
       document.querySelector("button").addEventListener("click",function(){
 
-        window.open("hemrako.github.io/Dragon/")
+        window.open("https://hemrako.github.io/Dragon/","_parent")
     })
     }
 
