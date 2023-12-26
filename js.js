@@ -31,7 +31,7 @@ setInterval(function(){
       container.innerHTML=`<h1>Game over</h1><h4>Score is ${fi+":"}${t}<button>Play again</button></h4>`
       document.querySelector("button").addEventListener("click",function(){
 
-        window.open("file:///C:/Users/Citys/Desktop/game3/index.html","_parent")
+        window.open("hemrako.github.io/Dragon/")
     })
     }
 
