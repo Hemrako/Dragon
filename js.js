@@ -1,6 +1,7 @@
 var character=document.querySelector(".character")
 var block=document.querySelector(".block")
 var container=document.querySelector(".container")
+var body=document.querySelector("body")
 var f=document.querySelector(".f")
 var s=document.querySelector(".s")
 var t=0;
@@ -8,7 +9,7 @@ var fi=0;
 var jn= new Audio("jn.wav")
 var el= new Audio("el.mp3")
 
-container.addEventListener("click",function(){
+body.addEventListener("click",function(){
     if(character.classList !="animate"){
         jn.play()
         character.classList.add("animate");
